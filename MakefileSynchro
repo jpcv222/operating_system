@@ -1,0 +1,7 @@
+
+CFILES=synchro.c semaphore.c
+
+synchro: $(CFILES)
+	@echo "Compiling"
+	@g++ -Wall -Werror -o synchro  $(CFILES)
+
