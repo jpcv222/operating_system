@@ -1,7 +1,0 @@
-
-CFILES=account.cpp shared_memory.cpp semaphore.cpp
-
-account: $(CFILES)
-	@echo "Compiling"
-	@g++ -Wall -Werror -o account.o $(CFILES)
-
